@@ -13,7 +13,10 @@ export const candidatesApi = [
             "https://www.youtube.com/embed/SxoRrlfkHho",
             // Add more video URLs here if available
         ],
-        status: "shortlisted"
+        status: "shortlisted",
+        communication:8,
+        handling:7,
+        behaviour:9
     },
     {
         index: 1,
@@ -28,7 +31,10 @@ export const candidatesApi = [
         videos: [
             // Add video URLs here if available
         ],
-        status: "review"
+        status: "review",
+        communication:7,
+        handling:9,
+        behaviour:8
     },
     {
         index: 2,
@@ -43,7 +49,10 @@ export const candidatesApi = [
         videos: [
             // Add video URLs here if available
         ],
-        status: "shortlisted"
+        status: "shortlisted",
+        communication:8,
+        handling:6,
+        behaviour:7
     },
     {
         index: 3,
@@ -58,7 +67,10 @@ export const candidatesApi = [
         videos: [
             // Add video URLs here if available
         ],
-        status: "review"
+        status: "review",
+        communication:2,
+        handling:6,
+        behaviour:5
     },
     {
         index: 4,
@@ -73,7 +85,10 @@ export const candidatesApi = [
         videos: [
             // Add video URLs here if available
         ],
-        status: "shortlisted"
+        status: "shortlisted",
+        communication:9,
+        handling:7,
+        behaviour:8
     },
     {
         index: 5,
@@ -88,7 +103,10 @@ export const candidatesApi = [
         videos: [
             // Add video URLs here if available
         ],
-        status: "review"
+        status: "review",
+        communication:7,
+        handling:5,
+        behaviour:6
     },
     {
         index: 6,
@@ -103,7 +121,10 @@ export const candidatesApi = [
         videos: [
             // Add video URLs here if available
         ],
-        status: "shortlisted"
+        status: "shortlisted",
+        communication:8,
+        handling:9,
+        behaviour:7
     },
     {
         index: 7,
@@ -118,7 +139,10 @@ export const candidatesApi = [
         videos: [
             // Add video URLs here if available
         ],
-        status: "review"
+        status: "review",
+        communication:6,
+        handling:5,
+        behaviour:4
     },
     {
         index: 8,
@@ -133,7 +157,10 @@ export const candidatesApi = [
         videos: [
             // Add video URLs here if available
         ],
-        status: "review"
+        status: "review",
+        communication:5,
+        handling:6,
+        behaviour:3
     },
     {
         index: 9,
@@ -148,6 +175,9 @@ export const candidatesApi = [
         videos: [
             // Add video URLs here if available
         ],
-        status: "shortlisted"
+        status: "shortlisted",
+        communication:7,
+        handling:2,
+        behaviour:8,
     }
 ];

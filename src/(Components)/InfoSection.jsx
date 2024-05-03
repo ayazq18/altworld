@@ -1,15 +1,23 @@
 'use client'
-import { Box, Button, Card, Grid, Stack, Typography } from '@mui/material'
-import React from 'react'
-import ProgressBar from 'react-bootstrap/ProgressBar';
-import RatingSlider from './Progress';
+import { Box, Button, Card, Grid, Slider, Stack, Typography } from '@mui/material'
+import React, { useState } from 'react'
 import { candidatesApi } from './MockApi';
+import RangeSlider from './Progress';
 
 function InfoSection({ selectedIndex }) {
 
+    const [candidates, setCandidates] = useState(candidatesApi);
+    console.log('candidate------->', candidates)
+
+    const handleShortlist = () => {
+        const updatedCandidates = candidates.map((candidate) =>
+            candidate.index === selectedIndex ? { ...candidate, status: 'shortlisted', communication: 8, handling: 7, behaviour: 6 } : candidate
+        );
+        setCandidates(updatedCandidates);
+    };
+
     const filterCandidateData = candidatesApi.filter((item, index) => item.index == selectedIndex)
     const CandidateData = filterCandidateData[0]
-    console.log('filterCandidateData--->', CandidateData)
     return (
         // <Grid sx={{height:'100%', border:'1px solid green'}}>
         <Grid item xs={12} md={7} sx={{}}>
@@ -41,33 +49,39 @@ function InfoSection({ selectedIndex }) {
 
                         </Stack>
 
-                        {/* <ProgressBar now={50} label='now' style={{ height: '20px', width:'40%', color:'red' }} /> */}
-                        {/* <RatingSlider/> */}
-                        <Stack sx={{ height: '20%', }}></Stack>
+                        {/* ------------------Range----------- */}
 
-                        <Box sx={{ height:'55vh'  }}>
-                        <Box sx={{ mt: 2 }}>
-                            <Typography sx={{ fontSize: '14px', fontWeight: '700' }}>About</Typography>
-                            <Typography sx={{ fontSize: '12px', }}>{CandidateData?.about}</Typography>
+                        <Stack sx={{ height: '20%', }}>
+                            <RangeSlider CandidateData={CandidateData} />
+                        </Stack>
+
+                        <Box sx={{ height: '55vh' }}>
+                            <Box sx={{ mt: 2 }}>
+                                <Typography sx={{ fontSize: '14px', fontWeight: '700' }}>About</Typography>
+                                <Typography sx={{ fontSize: '12px', }}>{CandidateData?.about}</Typography>
+                            </Box>
+
+                            <Box sx={{ mt: 2 }}>
+                                <Typography sx={{ fontSize: '14px', fontWeight: '700' }}>Experience</Typography>
+                                <Typography sx={{ fontSize: '12px', }}>{CandidateData?.experience}</Typography>
+                            </Box>
+
+                            <Box sx={{ mt: 2 }}>
+                                <Typography sx={{ fontSize: '14px', fontWeight: '700' }}>Experience</Typography>
+                                <Typography sx={{ fontSize: '12px', }}>{CandidateData?.hobbies}</Typography>
+                            </Box>
+
+                            <Box sx={{ mt: 2 }}>
+                                <Typography sx={{ fontSize: '14px', fontWeight: '700' }}>Experience</Typography>
+                                <Typography sx={{ fontSize: '12px', }}>{CandidateData?.introduction}</Typography>
+                            </Box>
                         </Box>
 
-                        <Box sx={{ mt: 2 }}>
-                            <Typography sx={{ fontSize: '14px', fontWeight: '700' }}>Experience</Typography>
-                            <Typography sx={{ fontSize: '12px', }}>{CandidateData?.experience}</Typography>
-                        </Box>
-
-                        <Box sx={{ mt: 2 }}>
-                            <Typography sx={{ fontSize: '14px', fontWeight: '700' }}>Experience</Typography>
-                            <Typography sx={{ fontSize: '12px', }}>{CandidateData?.hobbies}</Typography>
-                        </Box>
-
-                        <Box sx={{ mt: 2 }}>
-                            <Typography sx={{ fontSize: '14px', fontWeight: '700' }}>Experience</Typography>
-                            <Typography sx={{ fontSize: '12px', }}>{CandidateData?.introduction}</Typography>
-                        </Box>
-                        </Box>
-
-                        <Button variant='contained' disabled={CandidateData?.status === 'shortlisted'} sx={{ bgcolor: '#1ec3b3', borderRadius: '10px', mt: 2, pl: 10, pr: 10 }}>{CandidateData?.status === 'review' ? 'Shortlist' : 'Selected'}</Button>
+                        <Button variant='contained' disabled={CandidateData?.status === 'shortlisted'}
+                        onClick={handleShortlist}
+                            sx={{ bgcolor: '#1ec3b3', borderRadius: '10px', mt: 2, pl: 10, pr: 10 }}>
+                            {CandidateData?.status === 'review' ? 'Shortlist' : 'Selected'}
+                        </Button>
 
                     </Grid>
                     <Grid item xs={12} md={6} sx={{ border: '1px solid blue', height: '70vh', bgcolor: '#e2e8f0' }}>

@@ -9,11 +9,11 @@ function SideNavBar() {
             <Box sx={{ p:2, display: 'flex', gap:'12px', alignItems:'center', borderBottom: '1px solid rgba(128, 128, 128, 0.3)',}}>
                 <Box>
                     <Box style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <KeyboardArrowUpSharpIcon style={{fontSize:'15px', border: '1px solid black', marginRight: '-1px' }} />
-                        <KeyboardArrowUpSharpIcon style={{fontSize:'15px', border: '1px solid black' }} />
+                        <KeyboardArrowUpSharpIcon style={{fontSize:'15px', border: '2.5px solid black', marginRight: '-1px' }} />
+                        <KeyboardArrowUpSharpIcon style={{fontSize:'15px', border: '2.5px solid black' }} />
                     </Box>
                     <Box style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <KeyboardArrowDownSharpIcon style={{fontSize:'15px', border: '1px solid black' }} />
+                        <KeyboardArrowDownSharpIcon style={{fontSize:'15px', border: '2.5px solid black' }} />
                     </Box>
                 </Box>
 

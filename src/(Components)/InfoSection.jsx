@@ -1,5 +1,5 @@
 'use client'
-import { Box, Button, Card, Grid, Slider, Stack, Typography } from '@mui/material'
+import { Box, Button, Card, Grid, Stack, Typography } from '@mui/material'
 import React, { useState } from 'react'
 import { candidatesApi } from './MockApi';
 import RangeSlider from './Progress';
@@ -7,7 +7,6 @@ import RangeSlider from './Progress';
 function InfoSection({ selectedIndex }) {
 
     const [candidates, setCandidates] = useState(candidatesApi);
-    console.log('candidate------->', candidates)
 
     const handleShortlist = () => {
         const updatedCandidates = candidates.map((candidate) =>
@@ -19,7 +18,6 @@ function InfoSection({ selectedIndex }) {
     const filterCandidateData = candidatesApi.filter((item, index) => item.index == selectedIndex)
     const CandidateData = filterCandidateData[0]
     return (
-        // <Grid sx={{height:'100%', border:'1px solid green'}}>
         <Grid item xs={12} md={7} sx={{}}>
             <Card sx={{ ml: { xs: 0, md: 5 }, p: 1, boxShadow: '0px 0px 3px rgba(0, 0, 0, 0.1)', borderRadius: '20px', }}>
                 <Grid container spacing={0}>
@@ -84,8 +82,8 @@ function InfoSection({ selectedIndex }) {
                         </Button>
 
                     </Grid>
-                    <Grid item xs={12} md={6} sx={{ border: '1px solid blue', height: '70vh', bgcolor: '#e2e8f0' }}>
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/SxoRrlfkHho" frameborder="0" allowfullscreen></iframe>
+                    <Grid item xs={12} md={6} sx={{height: '70vh', bgcolor: '#e2e8f0', borderRadius:'15px' }}>
+                        <iframe width="100%" height="100%" style={{borderRadius:'15px'}} src="https://www.youtube.com/embed/SxoRrlfkHho" frameborder="0" allowfullscreen></iframe>
                     </Grid>
 
                 </Grid>

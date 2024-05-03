@@ -19,13 +19,9 @@ function SideNavBar() {
 
                 <Typography
                     variant="h6"
-                    // color="textSecondary"
                     sx={{
-                        // pb: 3,
-                        // pl: 3,
                         fontSize:'14px',
                         fontWeight: 700,
-                        // borderBottom: '1px solid rgba(128, 128, 128, 0.3)',
                         textAlign: 'left',
                     }}
                 >
@@ -62,7 +58,6 @@ function SideNavBar() {
 
                     <Button type="submit" variant="contained"
                         sx={{ bgcolor: 'white', color: 'black', p: 1, mt: 2, textTransform: 'capitalize' }}
-                    //  loading={isSubmitting}
                     >
                         Create New Assignment
                     </Button>

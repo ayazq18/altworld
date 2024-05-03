@@ -11,7 +11,6 @@ export const candidatesApi = [
         introduction: "Hello, I'm John Doe. I'm a software developer with a passion for creating elegant solutionsout the opportunity.",
         videos: [
             "https://www.youtube.com/embed/SxoRrlfkHho",
-            // Add more video URLs here if available
         ],
         status: "shortlisted",
         communication:8,
@@ -29,7 +28,6 @@ export const candidatesApi = [
         hobbies: "Outside of work, I enjoy traveling to new destinations, experimenting with new ",
         introduction: "Hi, I'm Jane Smith. As a marketing specialist, I am passionate about creating ",
         videos: [
-            // Add video URLs here if available
         ],
         status: "review",
         communication:7,
@@ -47,7 +45,6 @@ export const candidatesApi = [
         hobbies: "In my spare time, I love playing video games, watching movies, and playing soccer.",
         introduction: "Hey there, I'm Alex Johnson. I'm a web developer with a passion for creating.",
         videos: [
-            // Add video URLs here if available
         ],
         status: "shortlisted",
         communication:8,
@@ -65,7 +62,6 @@ export const candidatesApi = [
         hobbies: "Outside of work, I enjoy painting landscapes, traveling to new art destinations, a.",
         introduction: "Nice to meet you, I'm Emily Brown. I'm a graphic designer with a passion for.",
         videos: [
-            // Add video URLs here if available
         ],
         status: "review",
         communication:2,
@@ -83,7 +79,6 @@ export const candidatesApi = [
         hobbies: "Outside of work, I enjoy reading financial journals, running marathons, and experimenting I help ",
         introduction: "Hi, I'm Michael Davis. I'm a finance professional with a passion for numbers and a drio ",
         videos: [
-            // Add video URLs here if available
         ],
         status: "shortlisted",
         communication:9,
@@ -101,7 +96,6 @@ export const candidatesApi = [
         hobbies: "Outside of work, I enjoy photography, traveling to new destinations, and hiking in nature. I also enjoyind.",
         introduction: "Hello, I'm Emma Wilson. I'm a marketing professional with a passion for creating impactfulring my creativ.",
         videos: [
-            // Add video URLs here if available
         ],
         status: "review",
         communication:7,
@@ -119,7 +113,6 @@ export const candidatesApi = [
         hobbies: "In my spare time, I enjoy gaming, coding side projects, and reading tech blogs. I am also a mentor at a .",
         introduction: "Nice to meet you, I'm Daniel Lee. I'm a software engineer with a passion for building innovative solution.",
         videos: [
-            // Add video URLs here if available
         ],
         status: "shortlisted",
         communication:8,
@@ -137,7 +130,6 @@ export const candidatesApi = [
         hobbies: "Outside of work, I enjoy drawing, practicing yoga, and experimenting with new art techniques. I am alsochildren in .",
         introduction: "Hello, I'm Olivia Martinez. I'm a graphic designer with a passion for creating visually stunning dativit.",
         videos: [
-            // Add video URLs here if available
         ],
         status: "review",
         communication:6,
@@ -155,7 +147,6 @@ export const candidatesApi = [
         hobbies: "Outside of work, I enjoy traveling with my family, attending live music events, and playing soccer with here.",
         introduction: "Hi, I'm William Clark. I'm a project manager with a passion for leading teams and delivering results.o.",
         videos: [
-            // Add video URLs here if available
         ],
         status: "review",
         communication:5,
@@ -173,7 +164,6 @@ export const candidatesApi = [
         hobbies: "Outside of work, I enjoy hiking in the mountains, cooking new recipes, and painting landscapes. .",
         introduction: "Nice to meet you, I'm Sophia Rodriguez. I'm a sales professional with a proven track recor.",
         videos: [
-            // Add video URLs here if available
         ],
         status: "shortlisted",
         communication:7,

@@ -1,5 +1,5 @@
 'use client'
-import { CopyAll, Edit, Image } from '@mui/icons-material'
+import { CopyAll, Edit, } from '@mui/icons-material'
 import { Box, Button, Card, Grid, Stack, Typography } from '@mui/material'
 import ViewInArSharpIcon from '@mui/icons-material/ViewInArSharp';
 import React, { useState } from 'react'
@@ -38,7 +38,6 @@ function SalesSection() {
                     </Typography>
                     <Typography
                         variant="h6"
-                        // color="textSecondary"
                         sx={{
                             fontSize: '15px',
                             pl: 1,
@@ -62,7 +61,6 @@ function SalesSection() {
                     Sales BDE
                 </Typography>
 
-                {/* <Box sx={{display:'flex'}}> */}
 
                 <Card sx={{ p: 1, boxShadow: '0px 0px 3px rgba(0, 0, 0, 0.1)', borderRadius: '20px', }}>
 
@@ -88,8 +86,6 @@ function SalesSection() {
                             <Typography
                                 variant="h6"
                                 sx={{
-                                    // pb: 3,
-                                    // pl: 3,
                                     textAlign: 'left',
                                     color: '#3CB371'
                                 }}

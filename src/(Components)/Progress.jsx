@@ -15,7 +15,7 @@ const RangeSlider = ({ CandidateData }) => {
                     value={CandidateData?.behaviour}
                     max={10}
                     sx={{
-                        width: '150px',
+                        width: '140px',
                         height: '8px',
                         '& .MuiSlider-track': {
                             backgroundColor:  CandidateData?.behaviour >= 7 ? 'lightgreen' : 'orange',
@@ -36,7 +36,7 @@ const RangeSlider = ({ CandidateData }) => {
                     value={CandidateData?.communication}
                     max={10}
                     sx={{
-                        width: '150px',
+                        width: '140px',
                         height: '8px',
                         '& .MuiSlider-track': {
                             backgroundColor: CandidateData?.communication >= 7 ? 'lightgreen' : 'orange',
@@ -57,7 +57,7 @@ const RangeSlider = ({ CandidateData }) => {
                     value={CandidateData?.handling}
                     max={10}
                     sx={{
-                        width: '150px',
+                        width: '140px',
                         height: '8px', 
                         '& .MuiSlider-track': {
                             backgroundColor: CandidateData?.handling >= 7 ? 'lightgreen' : 'orange',

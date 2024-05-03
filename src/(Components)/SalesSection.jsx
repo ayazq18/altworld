@@ -210,7 +210,7 @@ function SalesSection() {
 
                     <Stack direction='row' justifyContent='flex-start' alignItems='center' gap={2} sx={{ mt: 2, pl: 1 }}>
                         <Button
-                            variant={statusFilter === "review" ? "contained" : ""}
+                            variant={statusFilter === 0 ? "contained" : ""}
                             color="primary"
                             startIcon={<ViewInArSharpIcon />}
                             onClick={()=>handleIStatusFilter('review')}

@@ -18,7 +18,7 @@ function InfoSection({ selectedIndex }) {
     const filterCandidateData = candidatesApi.filter((item, index) => item.index == selectedIndex)
     const CandidateData = filterCandidateData[0]
     return (
-        <Grid item xs={12} md={7} sx={{}}>
+        <Grid item xs={12} md={7} sx={{mt:10}}>
             <Card sx={{ ml: { xs: 0, md: 5 }, p: 1, boxShadow: '0px 0px 3px rgba(0, 0, 0, 0.1)', borderRadius: '20px', }}>
                 <Grid container spacing={0}>
                     <Grid item xs={12} md={6} sx={{ p: 1, height: '100vh', }}>

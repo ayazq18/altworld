@@ -1,6 +1,6 @@
 'use client'
 import { CopyAll, Edit, } from '@mui/icons-material'
-import { Box, Button, Card, Grid, Stack, Typography } from '@mui/material'
+import { Box, Button, Card, Grid, Link, Stack, Typography } from '@mui/material'
 import ViewInArSharpIcon from '@mui/icons-material/ViewInArSharp';
 import React, { useState } from 'react'
 import { candidatesApi } from './MockApi';
@@ -119,8 +119,10 @@ function SalesSection() {
                                 gap: '5px'
                             }}
                         >
-                            <Typography
+                            <Link
                                 variant="h6"
+                                href='https://altworld.in/'
+                                target='_blank'
                                 sx={{
                                     fontSize: '14px',
                                     color: 'blue',
@@ -128,8 +130,8 @@ function SalesSection() {
                                     fontWeight: 700,
                                 }}
                             >
-                                https://tiny.url.asknakdna/
-                            </Typography>
+                                https://altworld.in/
+                            </Link>
                         </Box>
 
                     </Stack>

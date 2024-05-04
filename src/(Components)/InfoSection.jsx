@@ -65,12 +65,12 @@ function InfoSection({ selectedIndex }) {
                             </Box>
 
                             <Box sx={{ mt: 2 }}>
-                                <Typography sx={{ fontSize: '14px', fontWeight: '700' }}>Experience</Typography>
+                                <Typography sx={{ fontSize: '14px', fontWeight: '700' }}>Hobbies</Typography>
                                 <Typography sx={{ fontSize: '12px', }}>{CandidateData?.hobbies}</Typography>
                             </Box>
 
                             <Box sx={{ mt: 2 }}>
-                                <Typography sx={{ fontSize: '14px', fontWeight: '700' }}>Experience</Typography>
+                                <Typography sx={{ fontSize: '14px', fontWeight: '700' }}>Information</Typography>
                                 <Typography sx={{ fontSize: '12px', }}>{CandidateData?.introduction}</Typography>
                             </Box>
                         </Box>

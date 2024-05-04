@@ -75,9 +75,9 @@ export const candidatesApi = [
         score: 88,
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF0lHNzytnb_Z6eMupNX9TQsGTODVRVC8tz65viDWMWA&s",
         about: "I am a detail-oriented professional with a passion for finance and analytics. With",
-        experience: "In my finance career, I have worked in various roles, including financial analysis",
-        hobbies: "Outside of work, I enjoy reading financial journals, running marathons, and experimenting",
-        introduction: "Hi, I'm Michael Davis. I'm a finance professional with a passion for numbers and a drio ",
+        experience: "In my finance career, I have worked in various roles, including financial analys",
+        hobbies: "Outside of work, I enjoy reading financial journals, running marathons, and experi",
+        introduction: "Hi, I'm Michael Davis. I'm a finance professional with a passion for numbers and  ",
         videos: [
         ],
         status: "shortlisted",

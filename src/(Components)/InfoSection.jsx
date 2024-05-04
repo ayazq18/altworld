@@ -53,7 +53,7 @@ function InfoSection({ selectedIndex }) {
                             <RangeSlider CandidateData={CandidateData} />
                         </Stack>
 
-                        <Box sx={{ height: '55vh' }}>
+                        <Box sx={{ height: '47vh' }}>
                             <Box sx={{ mt: 2 }}>
                                 <Typography sx={{ fontSize: '14px', fontWeight: '700' }}>About</Typography>
                                 <Typography sx={{ fontSize: '12px', }}>{CandidateData?.about}</Typography>

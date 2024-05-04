@@ -6,11 +6,11 @@ import { Grid } from "@mui/material";
 export default function Home() {
   return (
     <>
-    <Grid container spacing={0} gap={5} sx={{}}>
-      <SideNavBar />
-      <SalesSection />
-    </Grid>
-    <Footer/>
+      <Grid container spacing={0} gap={5} sx={{}}>
+        <SideNavBar />
+        <SalesSection />
+      </Grid>
+      <Footer />
     </>
   );
 }

@@ -1,19 +1,5 @@
 This is a [Next.js](https://altworld-rouge.vercel.app/) project bootstrapped with [`AltWorld`](https://github.com/ayazq18/altworld).
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
 Open [https://altworld-rouge.vercel.app/](https://altworld-rouge.vercel.app/) with your browser to see the result.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.

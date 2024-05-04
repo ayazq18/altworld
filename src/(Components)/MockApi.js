@@ -8,7 +8,7 @@ export const candidatesApi = [
         about: "I am a highly motivated individual with a passion for problem-solving and a keen eye for .",
         experience: "With 3 years of experience in software development, I have worked on various proj.",
         hobbies: "In my free time, I enjoy reading books on technology and self-improvement. ",
-        introduction: "Hello, I'm John Doe. I'm a software developer with a passion for creating elegant solutionsout the opportunity.",
+        introduction: "Hello, I'm John Doe. I'm a software developer with a passion for creating elegant.",
         videos: [
             "https://www.youtube.com/embed/SxoRrlfkHho",
         ],
@@ -24,7 +24,7 @@ export const candidatesApi = [
         score: 32,
         image: "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Jane-Smith.Mr-and-Mrs-Smith.webp",
         about: "I am a dedicated professional with a strong background in marketing and a proven ",
-        experience: "With 5 years of experience in marketing, I have managed multiple projects and tise in digital.",
+        experience: "With 5 years of experience in marketing, I have managed multiple projects and .",
         hobbies: "Outside of work, I enjoy traveling to new destinations, experimenting with new ",
         introduction: "Hi, I'm Jane Smith. As a marketing specialist, I am passionate about creating ",
         videos: [
@@ -76,7 +76,7 @@ export const candidatesApi = [
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF0lHNzytnb_Z6eMupNX9TQsGTODVRVC8tz65viDWMWA&s",
         about: "I am a detail-oriented professional with a passion for finance and analytics. With",
         experience: "In my finance career, I have worked in various roles, including financial analysis",
-        hobbies: "Outside of work, I enjoy reading financial journals, running marathons, and experimenting I help ",
+        hobbies: "Outside of work, I enjoy reading financial journals, running marathons, and experimenting",
         introduction: "Hi, I'm Michael Davis. I'm a finance professional with a passion for numbers and a drio ",
         videos: [
         ],
@@ -91,10 +91,10 @@ export const candidatesApi = [
         email: "emma@example.com",
         score: 42,
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtJcfgOAc8USRCIZQS-Bo-5eldLn6s5x8h8nY6oQuaeB6KL2hbTC-bSgNd0TTvIJaN-nY&usqp=CAU",
-        about: "I am an energetic and creative person who loves taking on new challenges. With a background in mark",
-        experience: "With 3 years of experience in marketing, I have worked on various projects, including socia.",
-        hobbies: "Outside of work, I enjoy photography, traveling to new destinations, and hiking in nature. I als.",
-        introduction: "Hello, I'm Emma Wilson. I'm a marketing professional with a passion for creating impactful.",
+        about: "I am an energetic and creative person who loves taking on new challenges. With a backgro",
+        experience: "With 3 years of experience in marketing, I have worked on various projects, includi.",
+        hobbies: "Outside of work, I enjoy photography, traveling to new destinations, and hiking in nat.",
+        introduction: "Hello, I'm Emma Wilson. I'm a marketing professional with a passion for creating.",
         videos: [
         ],
         status: "review",
@@ -111,7 +111,7 @@ export const candidatesApi = [
         about: "I am a dedicated software engineer with a passion for building scalable and reliable systems .",
         experience: "Throughout my career, I have worked on a variety of projects, including e-commerce platf",
         hobbies: "In my spare time, I enjoy gaming, coding side projects, and reading tech blogs. I am also a ",
-        introduction: "Nice to meet you, I'm Daniel Lee. I'm a software engineer with a passion for building inn",
+        introduction: "Nice to meet you, I'm Daniel Lee. I'm a software engineer with a passion for building",
         videos: [
         ],
         status: "shortlisted",
@@ -162,7 +162,7 @@ export const candidatesApi = [
         about: "I am a results-driven professional with a focus on efficiency and effectiveness. With 6 years.",
         experience: "In my sales career, I have worked in various industries, including technology, healthcare. ",
         hobbies: "Outside of work, I enjoy hiking in the mountains, cooking new recipes, and painting landscape.",
-        introduction: "Nice to meet you, I'm Sophia Rodriguez. I'm a sales professional with a proven track recor.",
+        introduction: "Nice to meet you, I'm Sophia Rodriguez. I'm a sales professional with a proven track.",
         videos: [
         ],
         status: "shortlisted",
